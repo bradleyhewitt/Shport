@@ -1,0 +1,54 @@
+@use 'theme';
+
+.tab-group {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    gap: 2px;
+}
+
+.tabs {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2px;
+    flex-basis: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tabs::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.tab-content {
+    margin: 0;
+    padding: 0;
+    flex-basis: 100%;
+}
+
+.tab {
+    margin: 0;
+    padding: 3px;
+    gap: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration-color: #FFFFFF;
+}
+
+.tab-favorite {
+    flex-grow: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}

@@ -1,0 +1,126 @@
+@use 'theme';
+
+.header {
+  margin: 0 0 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: left;
+}
+
+.header-nav {
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.header-text {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.header-page {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 60px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.header-text-link {
+  text-decoration: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-link {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.header-dropdown {
+  border: 0 !important;
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.header-dropdown svg {
+  height: 24px;
+  width: 24px;
+}
+
+.header-left {
+  margin: 0;
+  padding: 0 0 0 20px;
+  flex-basis: 40%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  flex-shrink: 1;
+}
+
+.header-right {
+  margin: 0;
+  padding: 0 20px 0 0;
+  flex-basis: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.person-icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.theme-selector {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.theme-selection {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border-radius: 4px;
+}

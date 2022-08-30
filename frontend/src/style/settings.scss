@@ -1,0 +1,119 @@
+@use 'theme';
+
+.settings-header {
+    margin: 0 auto 20px;
+}
+
+.league-option {
+    margin: 2px;
+    padding: 2px;
+    flex: 1 1 0px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.league-option-active {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+.league-option-inactive {
+    pointer-events: none !important;
+}
+
+.league-wrapper {
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+.team-wrapper {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.selected-table {
+    max-height: 100px;
+    overflow-y: scroll;
+    margin: 10px 0 0;
+    padding: 4px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2px;
+    justify-items: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.selected-team {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.remove-button {
+    margin: 0;
+    padding: 0;
+    background-color: #eb4034;
+    height: auto;
+    border: 2px solid #d12115;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.remove-button svg {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.remove-button:hover {
+    background-color: #d12115;
+}
+
+.save-button {
+    margin: 0 auto;
+}
+
+.settings-category-header {
+    margin: 0;
+    width: 100%;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.inputForm {
+    margin: 0 0 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.inputForm label {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#selector-logo-container {
+    width: 2em;
+    height: 2em;
+}
+
+.settings {
+    margin-top: 25px !important;
+    margin-bottom: 10px;
+}
